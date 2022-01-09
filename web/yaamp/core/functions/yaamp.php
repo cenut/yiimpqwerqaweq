@@ -19,6 +19,7 @@ function yaamp_get_algos()
 		'blakecoin',
 		'blake2s',
 		'blake2b',
+		'cryptonight',
 		'decred',
 		'deep',
 		'exosis',
@@ -219,6 +220,7 @@ function getAlgoColors($algo)
 		'yescryptR16'	=> '#e2d0e2',
 		'yescryptR32'	=> '#e2d0d2',
 		'zr5'		=> '#d0b0d0',
+		'cryptonight'		=> '#d0b0da',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
 		'PoS'		=> '#ffffff'  // Stake
@@ -308,7 +310,8 @@ function getAlgoPort($algo)
 		'polytimos'	=> 8463,
 		'skunk'		=> 8433,
 		'tribus'	=> 8533,
-	        'a5a'   	=> 8633,
+	  'a5a'   	=> 8633,
+		'cryptonight'   	=> 8633,
 	);
 
 	global $configCustomPorts;
